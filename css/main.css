@@ -44,3 +44,9 @@ header .header__icons-container .header__icons{
     justify-self: end;
     margin-right: 50px;
 }
+
+header .header__icons span::before{
+    /* los íconos se tratarán como fuentes */
+    color:white;
+    font-size: 30px;
+}
