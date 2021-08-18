@@ -1,6 +1,7 @@
 :root{
   --header-background:#47cfac;
   --deep-black: black;
+  --just-white: white;
 }
 
 body {
@@ -22,7 +23,7 @@ a {
 header{
     width: 100%;
     height: 140px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
@@ -49,4 +50,29 @@ header .header__icons span::before{
     /* los íconos se tratarán como fuentes */
     color:white;
     font-size: 30px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav__logo-container{
+    margin-left: 50px;
+}
+nav .nav__logo-container img{
+    width:150px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+nav .nav__profile{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav .nav__profile a{
+    color: var(--deep-black);
+    border-bottom: 1px solid var(--deep-black);
 }
