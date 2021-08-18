@@ -1,3 +1,4 @@
+@import url(‘https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap’);
 :root{
   --header-background:#b2ebf9;
   --deep-black: black;
@@ -5,6 +6,7 @@
   --deep-purple:#8c54a1;
   --header-purple: #9a8ac0 ;
 }
+
 
 body {
     margin: 0;
@@ -77,6 +79,7 @@ nav .nav__profile{
 nav .nav__profile a{
     color: var(--deep-black);
     border-bottom: 1px solid var(--deep-black);
+    font-family: 'Roboto mono', monospace;
 }
 
 .home-main {
@@ -97,8 +100,10 @@ nav .nav__profile a{
 }
 
 .home-main-text{
+    font-family: 'Roboto mono', monospace;
     font-size:30px;
     font-weight: 700px;
     letter-spacing: 10px;
     text-align: center;
+    color:white;
 }
