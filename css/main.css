@@ -36,7 +36,7 @@ header .header__icons-container {
   width: 100%;
   height: 50px;
   display: grid;
-  background-color: var(--header-purple);
+  background-color: var(--deep-purple);
 }
 
 header .header__icons-container .header__icons {
@@ -121,4 +121,38 @@ nav .nav__profile a {
 .home-main-button a {
   font-weight: 700;
   font-size: 18px;
+}
+
+/* ------------------Pagina de Blogs-------------------- */
+
+.blogs-main{
+    display: grid;
+}
+
+.blogs-news-container{
+    background-color: var(--header-purple);
+    padding: 0 50px 40px;
+    margin:30px 20px;
+}
+
+.blogs-main-new{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs-news-img-container{
+    grid-column: 1;
+}
+
+.blogs-news-img-container img{
+
+}
+
+.blogs-news-info-container{
+    grid-column:2;
+}
+
+.blogs-news-info-container p{
+    margin-bottom: 35px;
 }
