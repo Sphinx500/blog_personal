@@ -182,3 +182,29 @@ nav .nav__profile a {
 	color: white;
 	background-color:var(--deep-purple);
 }
+
+.blogs-posts-container .post-container {
+  display: inline-block;
+  padding-left: 10px;
+  max-width: 30%;
+  margin-bottom: 50px;
+}
+.blogs-posts-container .post-container p {
+  margin-bottom: 35px;
+}
+.blogs-posts-container .post-container img {
+  width: 100%;
+}
+
+footer{
+  width: 100%;
+  height: 80px;
+  background-color:var(--header-background);
+  border-top: 35px solid var(--deep-purple);
+  text-align: center;
+}
+
+footer p{
+  color: black;
+  margin-top: 30px;
+}
