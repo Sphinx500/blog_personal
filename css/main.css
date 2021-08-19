@@ -21,6 +21,11 @@ body {
     right: 0;
 }
 
+.grid-container{
+  max-width: 980px;
+  margin: auto;
+}
+
 a {
   text-decoration: none;
   display: inline;
@@ -208,3 +213,4 @@ footer p{
   color: black;
   margin-top: 30px;
 }
+
