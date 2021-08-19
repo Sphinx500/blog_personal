@@ -169,3 +169,16 @@ nav .nav__profile a {
     padding-bottom: 20px;
     text-align: center;
 }
+
+.blogs-button{
+  border: 1px solid var(--header-background);
+  padding: 10px 15px;
+  font-size:12px;
+  background-color: var(--header-background);
+}
+
+.blogs-button:hover {
+	border: 1px solid white;
+	color: white;
+	background-color:var(--deep-purple);
+}
