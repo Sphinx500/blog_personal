@@ -265,3 +265,33 @@ footer p{
   width: 100px;
 }
 
+/* ------------------Pagina de Perfil-------------------- */
+
+.profile-main-container {
+  padding: 70px 40px;
+  background-color: var(--header-purple);
+  margin-bottom: 50px;
+}
+.profile-main-container img {
+  width: 320px;
+  margin-right: 30px;
+}
+.profile-main-container .profile-container {
+  display: flex;
+}
+.profile-main-projects{
+  padding: 0 50px 40px;
+}
+.profile-main-projects h3{
+  border-bottom:3px solid var(--header-background);
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+.projects-main-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.projects-main-container{
+  padding: 0 5px;
+}
